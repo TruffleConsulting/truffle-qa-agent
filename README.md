@@ -1,0 +1,1 @@
+# QA-brd-Jira-plugin
