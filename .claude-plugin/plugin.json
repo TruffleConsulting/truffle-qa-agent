@@ -1,0 +1,12 @@
+{
+  "name": "qa-brd-jira-workflow",
+  "version": "1.0.0",
+  "description": "QA prep workflow for Truffle Consulting: verifies Jira ticket quality, cross-checks BRD vs Jira for gaps (with a mandatory sign-off pause), and generates ticket-ordered manual test cases with no scenario mixing across tickets.",
+  "author": { "name": "Truffle Consulting" },
+  "keywords": ["qa", "test-cases", "jira", "brd", "gap-analysis", "salesforce"],
+  "skills": [
+    { "name": "jira-ticket-quality-check", "path": "skills/jira-ticket-quality-check/SKILL.md" },
+    { "name": "brd-jira-gap-analysis", "path": "skills/brd-jira-gap-analysis/SKILL.md" },
+    { "name": "salesforce-qa-test-case-generator", "path": "skills/salesforce-qa-test-case-generator/SKILL.md" }
+  ]
+}
