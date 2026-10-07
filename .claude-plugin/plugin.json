@@ -1,5 +1,5 @@
 {
-  "name": "qa-brd-jira-workflow",
+  "name": "truffle-qa-agent",
   "version": "1.0.0",
   "description": "QA prep workflow for Truffle Consulting: verifies Jira ticket quality, cross-checks BRD vs Jira for gaps (with a mandatory sign-off pause), and generates ticket-ordered manual test cases with no scenario mixing across tickets.",
   "author": { "name": "Truffle Consulting" },

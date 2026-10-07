@@ -15,8 +15,8 @@ Bundles three skills that run in sequence to take Jira tickets and a BRD from ra
 If your Claude Code / Claude environment supports plugin marketplaces:
 
 ```
-/plugin marketplace add <path-or-repo-to-this-plugin>
-/plugin install qa-brd-jira-workflow
+/plugin marketplace add TruffleConsulting/truffle-qa-agent
+/plugin install truffle-qa-agent@truffle-qa-agent
 ```
 
 If you're using this inside claude.ai's skills feature instead, upload each `SKILL.md` under `skills/` individually as its own skill — claude.ai does not currently install multi-skill plugin bundles as a single unit.

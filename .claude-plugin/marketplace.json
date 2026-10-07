@@ -1,10 +1,10 @@
 {
-  "name": "truffle-qa-brd-jira",
+  "name": "truffle-qa-agent",
   "owner": { "name": "Truffle Consulting" },
   "metadata": { "description": "Truffle Consulting QA workflow plugins for Jira and BRD analysis." },
   "plugins": [
     {
-      "name": "qa-brd-jira-workflow",
+      "name": "truffle-qa-agent",
       "source": "./",
       "description": "QA prep workflow: Jira ticket quality check, BRD vs Jira gap analysis, and ticket-ordered Salesforce QA test case generation.",
       "version": "1.0.0"
