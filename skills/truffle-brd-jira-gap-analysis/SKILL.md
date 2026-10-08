@@ -1,5 +1,5 @@
 ---
-name: brd-jira-gap-analysis
+name: truffle-brd-jira-gap-analysis
 description: Thoroughly compare a BRD against Jira ticket(s) to check whether they are aligned — everything stated in the BRD must be traceable to a ticket, and every ticket must be grounded in the BRD. Produces a gap table (Gap | BRD Says | Jira Says | Impact) and a recommended ticket testing order, then STOPS and waits for explicit user confirmation on which gaps matter before anything else happens (including test case generation). Use whenever the user provides both a BRD and Jira ticket(s) and asks to check alignment, compare BRD vs Jira, find gaps, verify everything in the BRD is covered, or wants to prep tickets before test cases are generated. Do not skip straight to test case generation when both a BRD and tickets are present — run this check first unless the user explicitly says gaps have already been reviewed.
 ---
 
