@@ -1,5 +1,5 @@
 ---
-name: salesforce-qa-test-case-generator
+name: truffle-test-case-generator
 description: Generate ticket-wise manual QA test cases from BRDs, Jira tickets, acceptance criteria, and supporting project documents. Use this skill when the user provides requirements and wants practical, requirement-aligned test cases in the user's established QA format and style.
 ---
 
