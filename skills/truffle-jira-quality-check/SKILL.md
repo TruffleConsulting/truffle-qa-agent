@@ -1,5 +1,5 @@
 ---
-name: jira-ticket-quality-check
+name: truffle-jira-quality-check
 description: Verify the quality and readiness of Jira ticket(s) BEFORE any BRD comparison or test case generation happens. Checks Acceptance Criteria quality, presence of technical design, presence of steps-to-perform where applicable, and correctness of Epic-Story linkage, ticket numbering, and sequencing. Use this whenever the user shares one or more Jira tickets and asks to check, verify, review, or validate ticket quality/readiness — e.g. "check this ticket", "is this ticket ready for testing", "verify the AC", "check the epic/story linking", "are these tickets in the right order". Never assume anything about a ticket that isn't explicitly written in it — missing or ambiguous information must be flagged, not filled in. This is a standalone quality gate and does not by itself produce test cases or gap analysis.
 ---
 
